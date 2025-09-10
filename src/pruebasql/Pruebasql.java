@@ -1,7 +1,7 @@
 
 package pruebasql;
 import java.sql.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class Pruebasql {
 
@@ -13,8 +13,9 @@ public class Pruebasql {
         CCrud crud = new CCrud(con);
         crud.consultar();
         
-        
-        
+        Scanner leer= new Scanner(System.in);
+        int n=leer.nextInt();
+        String non=leer.nextLine();
     }
     
 }
